@@ -10,6 +10,6 @@ parameters=[
   {name="dev.user.redis_host",value="redis-dev.afzalbasha.cloud"},
   {name="dev.cart.redis_host",value="redis-dev.afzalbasha.cloud"},
   {name="dev.cart.catalogue_host",value="catalogue-dev.afzalbasha.cloud"},
-  {name="dev.user.catalogue_port",value="8080"}
+  {name="dev.cart.catalogue_port",value="8080"}
 
 ]
