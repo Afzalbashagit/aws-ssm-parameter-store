@@ -8,6 +8,8 @@ parameters=[
   {name="dev.catalogue.mongo",value="MONGO=true"},
   {name="dev.user.mongo",value="MONGO=true"},
   {name="dev.user.redis_host",value="redis-dev.afzalbasha.cloud"},
-  {name="dev.user.mongo_url",value="mongodb://mongodb-dev.afzalbasha.cloud:27017/users"}
+  {name="dev.cart.redis_host",value="redis-dev.afzalbasha.cloud"},
+  {name="dev.cart.catalogue_host",value="catalogue-dev.afzalbasha.cloud"},
+  {name="dev.user.catalogue_port",value="8080"}
 
 ]
