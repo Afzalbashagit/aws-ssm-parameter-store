@@ -10,6 +10,9 @@ parameters=[
   {name="dev.user.redis_host",value="redis-dev.afzalbasha.cloud"},
   {name="dev.cart.redis_host",value="redis-dev.afzalbasha.cloud"},
   {name="dev.cart.catalogue_host",value="catalogue-dev.afzalbasha.cloud"},
-  {name="dev.cart.catalogue_port",value="8080"}
-
+  {name="dev.cart.catalogue_port",value="8080"},
+  {name="dev.shipping.cart_endpoint",value="cart-dev.afzalbasha.cloud:8080"}
+  {name="dev.shipping.db_host",value="mysql-dev.afzalbasha.cloud"},
+  {name="dev.shipping.db_user",value="root"},
+  {name="dev.shipping.db_pass",value="Roboshop@1"}
 ]
