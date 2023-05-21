@@ -16,5 +16,13 @@ parameters=[
   {name="dev.shipping.cart_endpoint",value="cart-dev.afzalbasha.cloud:8080"},
   {name="dev.shipping.db_host",value="mysql-dev.afzalbasha.cloud"},
   {name="dev.shipping.db_user",value="root"},
-  {name="dev.shipping.db_pass",value="Roboshop@1"}
+  {name="dev.shipping.db_pass",value="Roboshop@1"},
+  {name="dev.payment.cart_host",value="cart-dev.afzalbasha.cloud"},
+  {name="dev.payment.cart_port",value="8080"},
+  {name="dev.payment.user_host",value="user-dev.afzalbasha.cloud"},
+  {name="dev.payment.user_port",value="8080"},
+  {name="dev.payment.amqp_host",value="rabbitmq-dev.afzalbasha.cloud"},
+  {name="dev.payment.amqp_user",value="roboshop"},
+  {name="dev.payment.amqp_pass",value="roboshop123"}
 ]
+
